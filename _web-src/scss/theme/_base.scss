@@ -1,0 +1,24 @@
+*:focus {
+  outline: none;
+}
+
+body {
+  background: $body-background;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: darken($theme-color-main, 50%);
+}
+
+button {
+  &:focus {
+    outline: none;
+  }
+}
