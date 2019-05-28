@@ -1,80 +1,84 @@
-# Jekyll Instagram Portfolio Theme
+# stepbystep  
+A jekyll theme, simple and clear, compatible with PC iPad and Phone (RWD)
 
-Clean, minimalistic and responsive portfolio theme for Jekyll powered by Bootstrap 4.
-For the portfolio section is used Instagram widget, but you can easily update it with another content source.
+## Preview
+#### PC or Pad
+<img style="box-shadow: 10px 10px 5px #888888;border: 1px solid black;" src="https://github.com/jokinkuang/stepbystep/raw/master/article.png"></img>
+#### Mobile
+<div style="box-shadow: 10px 10px 5px #888888;border: 1px solid black;">
+<img style="width:50%;" src="https://github.com/jokinkuang/stepbystep/raw/master/mobile.png"></img>
+<img style="width:50%;" src="https://github.com/jokinkuang/stepbystep/raw/master/mobile2.png"></img>
+</div>
 
-## Live Demo
+## Features  
 
-https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
-![Jekyll Instagram Portfolio Theme](./screenshot.png "Jekyll Instagram Portfolio Theme")
+1. Compatible with PC iPad and Phone (RWD)
+2. Support blogger mood-talk(说说)
+3. Support post subdirs as post categories  
+  `_post/linux/nodejs/2016-9-1-About-Nodejs.md => linux and nodejs would merge into the post categories`
+4. Support pagination
+5. Support pinning posts
 
-## Showcase
-
-The best usage examples:
-
-- [Pavel Guzenko](http://guzenko.org.ua)
-- [Victor Mikitenko](https://mikitenko-org-ua.github.io/site/)
-- [Anthony Fuentes](http://anthonyfuentes.us/)
-- [Serhii Grytsyshyn](https://grserhii.github.io/)
-
-To add your example: fork the repo, add new line to the list above and create a pull request.
-
-## Featured on
-
-- [Template.net](https://www.template.net/cms-templates/jekyll/jekyll-themes-templates/)
-- [JekyllThemes.org](http://jekyllthemes.org/themes/instagram-portfolio-theme/)
-
-## Powered by
-
-- [Jekyll](https://jekyllrb.com/)
-- [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
-- [jQuery](https://jquery.com/)
-- [SnapWidget](https://snapwidget.com)
-- [Google Fonts: Lobster](https://fonts.google.com/specimen/Lobster)
-- [Font Awesome](http://fontawesome.io/)
-
-## Installation
-Install Jekyll:
-
+## What Must To Be Set!
 ```
-gem install jekyll bundler
-```
+title:         # your title
+author:        # your name
+email:         # your email
+description: > # your description
 
-Install bundle dependiencies:
+domain: "http://yourdomain.github.io" # your domain
 
-```
-bundle install
-```
+page_size: 2   # your pagination page size
 
-When finished, run the dev server:
+duoshuo_short_name: "sbys"              # your duoshuo name xxx.duoshuo.com
+duoshuo_user_uid: "6324572809590735618" # your duoshuo user uid
+duoshuo_user_name: "xk"                 # your duoshuo user name
 
+google_analytics_id: ""                 # your google analytics id
+baidu_tongji_id: ""                     # your baidu tongji id
 ```
-bundle exec jekyll serve
-```
+*NOTE* **If you do NOT set the duoshuo short name, all comments would commit to this demo site !**
 
-or just:
+## Install
+assume the github username is "hello" then:  
 
-```
-jekyll serve
+1. create a repository named "hello.github.io"  
+2. clone this repository  
+  `git clone https://github.com/jokinkuang/stepbystep.git`  
+3. push the whole thing to your repo "hello.github.io"  
+  `git remote set-url origin https://github.com/hello/hello.github.io.git`  
+  `git push origin master`  
+4. browse "hello.github.io"  
 
-```
-To stop the server, use `CTRL+C`.
+> if your github username is "world" then replace upper "hello" all to "world"  
 
-## Building front-end assets: styles and scripts
+## Custom Domain  
+if you want to visit "www.hello.com" instead of "hello.github.io" then:  
 
-Install module dependencies:
+1. create a file named "CNAME" (the file is already exist)  
+2. buy the "www.hello.com" domain  
+3. add following to the "CNAME"  
+  `www.hello.com`  
+4. go to the Shop where your domain bought and set the Domain DNS to:  
+  | prefix | record-type |      host       |  
+  |   www  |   CNAME     | hello.github.io |  
+5. wait a long long time  
+6. browse "www.hello.com"
 
-```
-npm install
-```
+## Custom Your Site  
+1. you need a [duoshuo](http://www.duoshuo.com) account  
+2. you need a [google-analytics](https://www.google.com/analytics/) account  
+3. all settings are in `_config.yml`
 
-Run the build script to generate updated front-end assets:
+## Other  
+whoever use this theme please add your site to the [wiki](https://github.com/jokinkuang/stepbystep/wiki)  
 
-```
-npm run build
-```
+## Bugs
+see [Release](https://github.com/jokinkuang/stepbystep/releases)
 
-Watch for changes and automatically rebuild assets (`CTRL+C` to stop):
-```
-npm run watch
-```
+## How It works  
+[English](http://www.jokinkuang.info/2016/09/03/stey-by-step-to-create-a-jekyll-theme.html)  
+[ 中文 ](http://www.jokinkuang.info/2016/09/03/how-to-create-the-jekyll-theme.html)
+
+## License  
+Under The [MIT](https://tldrlegal.com/license/mit-license) License
