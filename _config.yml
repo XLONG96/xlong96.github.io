@@ -1,6 +1,6 @@
 # Site settings
 title: XLONG96
-email: xxx@xxx
+email: xlong96@163.com
 description: XLONG96 Blogs
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
@@ -10,7 +10,7 @@ description: XLONG96 Blogs
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username: LiXizhi
+github_username: xlong96
 permalink: /:year/:month/:day/:title/
 # this is the url root of the view source link on the footer page.
 viewsourceroot: https://github.com/xlong96/xlong96.github.io/blob/master/
@@ -18,11 +18,11 @@ viewsourceroot: https://github.com/xlong96/xlong96.github.io/blob/master/
 newsourceroot: https://github.com/xlong96/xlong96.github.io/new/master
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-#duoshuo_shortname: lixizhi
-#duoshuo_url: "http://lixizhi.github.io"
+duoshuo_shortname: xlong96
+duoshuo_url: "http://xlong96.github.io"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
-disqus_shortname: xlong96
-disqus_url: "http://xlong96.github.io"
+#disqus_shortname: xlong96
+#disqus_url: "http://xlong96.github.io"
 #########################################
 
 # Build settings
