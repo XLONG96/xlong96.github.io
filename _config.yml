@@ -7,7 +7,8 @@ description: XLONG96 Blogs
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
+blogurl: "/blog/"
+#baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: xlong96
@@ -18,8 +19,8 @@ viewsourceroot: https://github.com/xlong96/xlong96.github.io/blob/master/
 newsourceroot: https://github.com/xlong96/xlong96.github.io/new/master
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-duoshuo_shortname: xlong96
-duoshuo_url: "http://xlong96.github.io"
+#duoshuo_shortname: xlong96
+#duoshuo_url: "http://xlong96.github.io"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
 #disqus_shortname: xlong96
 #disqus_url: "http://xlong96.github.io"
