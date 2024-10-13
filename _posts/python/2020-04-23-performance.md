@@ -9,6 +9,8 @@ comments: false
 * content
 {:toc}
 
+本篇将从 CPU 资源优化和内存优化两个角度讲讲 Python 的性能优化
+
 
 # CPU资源优化
 
