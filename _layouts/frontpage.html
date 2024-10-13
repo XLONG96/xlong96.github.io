@@ -16,6 +16,9 @@ layout: default
               {{ post.title }}
               </h2>
               <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <div class="">
+                {{post.excerpt}}
+              </div>
             </a>
           {% endfor %}
         </div>
@@ -30,7 +33,9 @@ layout: default
                     {{ post.title }}
                     </h2>
                     <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-                    <span class="">{{post.excerpt}}</span>
+                    <div class="">
+                      {{post.excerpt}}
+                    </div>
                   </a>
                 {% endif %}
               {% endfor %}
