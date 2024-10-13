@@ -30,6 +30,9 @@ layout: default
                     {{ post.title }}
                     </h2>
                     <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <div class="excerpt">
+                      {{post.excerpt}}
+                    </div>
                   </a>
                 {% endif %}
               {% endfor %}
