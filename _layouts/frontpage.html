@@ -17,7 +17,7 @@ layout: default
               </h2>
               <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
               <div class="">
-                {{post.excerpt}}
+                {{ post.content | markdownify | strip_html | truncatewords: 100 }}
               </div>
             </a>
           {% endfor %}
