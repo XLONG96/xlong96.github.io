@@ -16,10 +16,13 @@ layout: default
               {{ post.title }}
               </h2>
               <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <div class="">
-                {{ post.content | markdownify | strip_html | truncatewords: 50 }}
-              </div>
             </a>
+            <div class="">
+              {{post.excerpt}}
+            </div>
+            <div class="">
+              {{ post.content | strip_html | truncatewords: 30 }}
+            </div>
           {% endfor %}
         </div>
         <!-- <div class="posts-in-categories"> -->
@@ -33,13 +36,13 @@ layout: default
                     {{ post.title }}
                     </h2>
                     <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-                    <div class="">
-                      {{post.excerpt}}
-                    </div>
-                    <div class="">
-                      {{ post.content | strip_html | truncatewords: 50 }}
-                    </div>
                   </a>
+                  <div class="">
+                    {{post.excerpt}}
+                  </div>
+                  <div class="">
+                    {{ post.content | strip_html | truncatewords: 20 }}
+                  </div>
                 {% endif %}
               {% endfor %}
             {% endfor %}

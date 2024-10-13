@@ -4,7 +4,7 @@ title:  "Python性能优化"
 date:   2020-04-23 10:45:12
 categories: python
 tags: Python Performance 
-excerpt: 本篇将从 CPU 资源优化和内存优化两个角度讲讲 Python 的性能优化 \n 1. 解决过多的select \n * 替换thread中用到select的模块，这些模块会使用增量select的逻辑，导致过多的select空转，消耗一定的CPU
+excerpt: 本篇将从 CPU 资源优化和内存优化两个角度讲讲 Python 的性能优化
 ---
 
 * content
