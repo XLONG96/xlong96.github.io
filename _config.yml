@@ -1,10 +1,10 @@
 # Site settings
-title: XLONG96 Blog
-SEOTitle: XLONG96的博客 | XLONG96 Blog
+title: LANG Blog
+SEOTitle: LANG的博客 | LANG Blog
 header-img: img/home-bg-mount.jpg
 email: xlong96@163.com
 description: "Every failure is leading towards success."
-keyword: "XLONG96, XLONG96 Blog, XLONG96的博客"
+keyword: "XLONG96, LANG, LANG Blog, LANG的博客"
 url: "https://xlong96.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/XLONG96/xlong96.github.io.git" # you code repository

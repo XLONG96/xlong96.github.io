@@ -3,7 +3,7 @@ layout: post
 title:  "Python性能优化"
 subtitle: "本篇将从 CPU 资源优化和内存优化两个角度讲讲 Python 的性能优化"
 date:   2020-04-23 10:45:12
-author: XLONG96
+author: LANG
 header-img: img/post-bg-cat.jpg
 catalog: true
 tags:

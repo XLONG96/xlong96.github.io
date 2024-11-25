@@ -1,7 +1,7 @@
 {
-    "name": "xlong96-blog",
-    "title": "XLONG96 Blog",
-    "author": "XLONG96 <xlong96@163.com>",
+    "name": "lang-blog",
+    "title": "LANG Blog",
+    "author": "LANG <xlong96@163.com>",
     "version": "1.7.0",
     "homepage": "https://xlong96.github.io/",
     "repository": {

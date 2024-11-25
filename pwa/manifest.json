@@ -1,6 +1,6 @@
 {
-  "name": "XLONG96 Blog",
-  "short_name": "XLONG96 Blog",
+  "name": "LANG Blog",
+  "short_name": "LANG Blog",
   "description": "A personal blog by engineer",
   "icons": [{
     "src": "icons/pwa_icon.png",

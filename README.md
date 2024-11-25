@@ -1,4 +1,4 @@
-## XLONG96's Blog
+## LANG's Blog
 
 Hi, this is my personal blog website
 
